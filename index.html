@@ -16,16 +16,18 @@
     h1, h2, .serif-font {
       font-family: 'Cinzel', serif;
     }
-    .tree-hero-container {
-      position: relative;
-      background-image: url('tree.jpg');
-      background-size: cover;
-      background-position: center;
-      border-radius: 1.5rem;
-      overflow: hidden;
-      min-height: 480px;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
-    }
+   .tree-hero-container {
+  position: relative;
+  background-image: url('tree.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0d1b1e; /* matches your page background behind the image */
+  border-radius: 1.5rem;
+  overflow: hidden;
+  min-height: 600px; /* increased height so the full vertical aspect ratio displays nicely */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+}
     .water-ripple {
       position: absolute;
       bottom: 10px;
